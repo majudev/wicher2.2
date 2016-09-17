@@ -27,4 +27,5 @@ Tworzymy paczki deb:
 ```
 ./gen.sh
 ```
+## Licencja
 Licencja znajduje się w pliku LICENSE.
