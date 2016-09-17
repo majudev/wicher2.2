@@ -4,3 +4,6 @@
 [submodule "WicherDB_Server"]
 	path = WicherDB_Server
 	url = https://github.com/majudev/wicherdb-localserver.git
+[submodule "Starter"]
+	path = Starter
+	url = https://github.com/majudev/wicher-starter.git
