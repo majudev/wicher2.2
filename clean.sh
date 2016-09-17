@@ -2,6 +2,7 @@
 if [ -d Wicher ]; then
 	echo "Removing Wicher package..."
 	rm -r Wicher
+	rm *.deb
 fi
 echo "Cleaning Wicher..."
 cd Wicher2.2
@@ -14,6 +15,6 @@ cd ..
 if [ "`uname`" == "Linux" ]; then
 	echo "Cleaning WicherDB-fakeclient..."
 	cd wicherdb-fakeclient
-#	./clean.sh
+	rm client
 	cd ..
 fi
