@@ -4,6 +4,10 @@ if [ -d Wicher ]; then
 	rm -r Wicher
 	rm *.deb
 fi
+echo "Cleaning Starter..."
+cd Starter
+rm Wicher
+cd ..
 echo "Cleaning Wicher..."
 cd Wicher2.2
 ./clean.sh
