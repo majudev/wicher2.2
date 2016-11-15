@@ -25,6 +25,7 @@ else
 fi
 cp -r icons ../Wicher
 cp -r gui ../Wicher
+cp -r tt ../Wicher
 cd ..
 cd Starter
 ./make.sh
