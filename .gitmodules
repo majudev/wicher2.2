@@ -7,6 +7,6 @@
 [submodule "Starter"]
 	path = Starter
 	url = https://github.com/majudev/wicher-starter.git
-[submodule "Wicher2.2"]
-	path = Wicher2.2
+[submodule "Wicher-GTK"]
+	path = Wicher-GTK
 	url = https://github.com/majudev/wicher-gtk.git

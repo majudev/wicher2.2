@@ -16,7 +16,7 @@ if [ -e database.db ]; then
 fi
 cd ..
 echo "Making and copying Wicher..."
-cd Wicher2.2
+cd Wicher-GTK
 ./make.sh
 if [ "`uname | grep -c -i mingw`" != 0 ]; then
 	cp bin/Wicher.exe ../Wicher/bin/Wicher.exe
